@@ -1,0 +1,34 @@
+.container{
+    max-width: 955px;
+    background-color: gray;
+    margin: auto;
+    height: 60vh;
+}
+
+.message{
+    background-color: white;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 92%;
+    height: 34px;
+}
