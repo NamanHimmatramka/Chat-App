@@ -11,6 +11,9 @@ if(loginForm){
         if(body.success){
           window.location = 'http://localhost:8000/'
         }
+        else{
+          window.alert("Please Verify Your Email")
+        }
         console.log(body);
       });
 }
